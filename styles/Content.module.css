@@ -1,0 +1,99 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 70em;
+}
+
+.topbar {
+    padding: 30px 20px;
+    width: 67rem;
+    margin-left: 150px;
+    margin-top: 50px;
+    /* background: linear-gradient(90deg, #1545EA01 -15.55%, #787E8530 114.83%); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 0px solid blue;
+}
+
+.username {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.wrapper {
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.heading {
+    font-size: 60px;
+    margin-left: 150px;
+    opacity: 0.75;
+}
+
+.Metamask{
+background: rgb(61, 200, 163);
+    background: linear-gradient(90deg, rgba(61, 200, 163, 1) 0%, rgba(60, 191, 123, 1) 49%, rgba(59, 225, 89, 0.8828781512605042) 100%);        padding: 20px;
+        border: 0px solid #ffffff;
+        border-radius: 20px;
+        /* margin-top: 5em; */
+        /* margin-left: 3em; */
+        color: white;
+        opacity: 0.75;
+        font-size: 1em;
+}
+
+.h1 {
+    font-size: 25px;
+}
+
+.overview {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.getBalance {
+    background: linear-gradient(90deg, #1545EA50 -15.55%, #787E85ff 114.83%);
+    padding: 20px;
+    border: 0px solid #ffffff;
+    border-radius: 20px;
+    /* margin-top: 5em; */
+    /* margin-left: 3em; */
+    color: white;
+    opacity: 0.75;
+    font-size: 1.5em; 
+}
+
+.balance {
+    opacity: 1;
+    font-size: 2em;
+    /* margin: 40px auto auto 180px; */
+
+}
+
+.value {
+    /* margin: 40px auto auto 50px; */
+    font-size: 25px;
+}
+
+.card {
+    margin-top: 20px;
+    width: 30em;
+    height: 200px;
+    /* background:linear-gradient(90deg, #1545EA10 -15.55%, #787E8580 114.83%); */
+    background-color: #787E8530;
+    border: 0px solid #2c61c0;
+    border-radius: 20px;
+    ;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+

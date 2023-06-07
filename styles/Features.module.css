@@ -1,0 +1,41 @@
+.screenleft {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    height: 500 px;
+}
+
+.screenright {
+    display: flex;
+    justify-content: center;
+    height: 500 px;
+}
+
+.card {
+    width: 400px;
+    height: 500 px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    padding: 10px;
+    border: 5px solid #ccc;
+}
+
+.fit{
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.proper{
+    box-sizing: border-box;
+}
+
+.btn{
+    display: block;
+}
+
+.cards{
+    box-sizing: border-box;
+    min-height: 218px;
+    min-width: 611px;
+}
+

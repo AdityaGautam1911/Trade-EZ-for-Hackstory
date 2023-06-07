@@ -1,0 +1,78 @@
+.wrapper{
+    display: flex;
+}
+
+.body{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 33px;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    background-color: aquamarine;
+    font-size: 33px;
+    padding: 5px;
+    font-family: Impact;
+}
+
+.button:hover {
+    background-color: yellow;
+}
+.username {
+    margin-right: 20px;
+    font-size: 20px;
+}
+.topbar {
+    padding: 30px 20px;
+    width: 67rem;
+    margin-left: 150px;
+    margin-top: 50px;
+    /* background: linear-gradient(90deg, #1545EA01 -15.55%, #787E8530 114.83%); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 0px solid blue;
+}
+.Metamask {
+    background: rgb(61, 200, 163);
+    background: linear-gradient(90deg, rgba(61, 200, 163, 1) 0%, rgba(60, 191, 123, 1) 49%, rgba(59, 225, 89, 0.8828781512605042) 100%);
+    padding: 20px;
+    border: 0px solid #ffffff;
+    border-radius: 20px;
+    /* margin-top: 5em; */
+    /* margin-left: 3em; */
+    color: white;
+    opacity: 0.75;
+    font-size: 1em;
+}
+
+.payments {
+    margin-top: 60px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay {
+    color: white;
+    padding: 20px 30px;
+    background: linear-gradient(90deg, #1545EA -15.55%, #787E85 114.83%);
+    border: 3px solid #0A2436;
+    box-shadow: 0px 2px 20px 1px rgba(0, 0, 0, 0.77);
+    border-radius: 74px;
+    font-size: 25px;
+}
+
+.pay:hover {
+    background: linear-gradient(90deg, #1569FF -15.55%, #787E85 114.83%);
+}
+
+.inputID,
+.inputamount {
+    padding: 10px 10px;
+    height: 25px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
